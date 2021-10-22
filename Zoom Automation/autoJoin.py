@@ -17,7 +17,7 @@ def findPeriodNo(hr,min): #which class (class number) at which time
  else 6 if hr==13 and min>40 or hr==14 and min<30 
  else print('dk which class to join')
  )
- return Class
+ return Class-1
 
 idInfo = {
     'key': ('PMI', "password", "link")
