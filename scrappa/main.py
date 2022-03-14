@@ -21,7 +21,7 @@ ctx.check_hostname=False
 ctx.verify_mode=ssl.CERT_NONE
 # url='https://fboxtv.com/watch-tv/watch-family-guy-fbox-39549.4841206'
 # html=urllib.request.urlopen(url,context=ctx).read()
-url='https://en.wikipedia.org/wiki/List_of_Young_Sheldon_episodes#Season_5_(2021%E2%80%9322)'
+url='wikiwikiwikiwikiwikiwikiwikiwikiwikiwkiiwkiwkiwkiwkiwkiwkiwkwiwkiwkwiwkiwkwiwkiwkwiwkiwkwiwkiwkwiwkwikwiwkwikwiwkwikwikwikwiwiwkiwk'
 req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
 webpage = urlopen(req).read()
 soup=BeautifulSoup(webpage,'html.parser')
